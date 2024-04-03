@@ -75,14 +75,14 @@ header {
   background-color: #0a66fc;
 }
 
-.image {
-  background-color: #8dadad;
-  height: 250px;
-  width: 50vh;
-  border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.hero-section img {
+  max-width: 50vh;
+  border-radius: 10px;
+  box-shadow: 0.3em 0.3em 1em rgba(255, 255, 255, 0.2);
+}
+
+.hero-section img:hover {
+  box-shadow: -0.3em -0.3em 1em rgba(255, 255, 255, 0.2);
 }
 
 /* Main Section */
@@ -118,7 +118,7 @@ h1 {
   font-family: "Roboto", sans-serif;
 }
 
-.subject-image {
+.subject img {
   width: 130px;
   height: 130px;
   border: 2px solid #3882f6;
